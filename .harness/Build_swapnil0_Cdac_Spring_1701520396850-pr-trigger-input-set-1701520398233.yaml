@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_swapnil0_Cdac_Spring_1701520396850-pr-trigger-input-set
+  identifier: Build_swapnil0_Cdac_Spring_1701520396850prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_swapnil0_Cdac_Spring_1701520396850
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
